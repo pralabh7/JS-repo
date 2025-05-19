@@ -29,3 +29,6 @@ console.log(typeof "Pralabh")
 console.log(typeof bloodgrp)/// gives undefined
 console.log(typeof null) // gives object
 console.log(typeof null)// gives object
+
+// ecmaScript(European computer manufacturers association) are standardised specification that defines how language should work
+// mdn(mozilla developers nnetwork) => documentation site for js developers
