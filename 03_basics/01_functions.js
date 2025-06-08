@@ -28,5 +28,30 @@ function loginUserMessage(username="sam"){ //We can give default value like user
     return `${username} your login is successful`
 }
 loginUserMessage()
-console.log(loginUserMessage("Pralabh"))
-console.log(loginUserMessage())
+//console.log(loginUserMessage("Pralabh"))
+//console.log(loginUserMessage())
+
+function calculateCartPrice(val1,val2,...num){
+    return num
+}
+//console.log(calculateCartPrice(10,20,100,200))
+
+const user={
+    username:"Pralabh",
+    age:20
+}
+function giveInfo(obj){
+    console.log(`Hello ${obj.username}, You are ${obj.age} years old..`)
+}
+//giveInfo(user)
+giveInfo({
+    username:"Mishra ji",
+    age:20
+})
+
+const arr=[10,20,30,40]
+function getSecondElement(array){
+    return array[1];
+}
+//console.log(getSecondElement(arr))
+//console.log(getSecondElement([100,200,300,400]))
