@@ -1,0 +1,15 @@
+js is a single threaded language.
+For execution, firstly global execution context is created and allocated in 'this'.different for diff environments like browser, nodejs,etc.
+Execution contexts-GEC, Functional EC and Eval EC.
+Execution in two phases now- Memory creation phase(or Creation phase) and Execution phase.
+memory phase-memory allocated for variables with value as undefined.
+execution phase-value allocated to variables and new execution context is made for function execution with new variable environment and execution thread.
+then again memory phase and execution phase for new execution context.
+value is returned to GLOBAL execution context then execution context is deleted
+
+Call stack- functions execution by storing in stack.
+bottom of stack-GEC
+LIFO is followed
+can be tested in sources in inspect of webpage
+
+
